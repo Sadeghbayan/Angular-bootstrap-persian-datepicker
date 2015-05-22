@@ -3,8 +3,10 @@ Angular Directive from mousavian/bootstrap-jalali-datepicker Library .
 
 Demo : http://plnkr.co/edit/2nhFx3yPGnlCrDn8eyna?p=preview
 
-Usage :
- Html :
+<h3><b>Usage :</b></h3>
+
+<b>Html :</b>
+
    <div class="input-append">
                <input date-p
                id="datepicker1"
@@ -14,9 +16,8 @@ Usage :
                >
                <button  class="btn" type="button" ><i class="icon-calendar">i</i></button>
            </div>
-نکته :  date-p اسم دایر کتیو می باشد
 
-    Js :
+   <b>Js :</b>
            app.directive('dateP', function() {
              return {
                restrict: 'A',
@@ -41,5 +42,6 @@ Usage :
 
 
 
+نکته :  date-p اسم دایر کتیو می باشد
 
 
