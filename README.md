@@ -37,8 +37,7 @@ Demo : http://plnkr.co/edit/2nhFx3yPGnlCrDn8eyna?p=preview
 Tip :
 </b>
 
-Tip :
-<p style="text-align: right">
+<p dir="rtl">
 
     نکته :  date-p اسم دایر کتیو می باشد
 
