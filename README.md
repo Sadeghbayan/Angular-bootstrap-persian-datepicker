@@ -7,6 +7,7 @@ Demo : http://plnkr.co/edit/2nhFx3yPGnlCrDn8eyna?p=preview
 
 <b>Html :</b>
 
+<code>
    <div class="input-append">
                <input date-p
                id="datepicker1"
@@ -16,8 +17,12 @@ Demo : http://plnkr.co/edit/2nhFx3yPGnlCrDn8eyna?p=preview
                >
                <button  class="btn" type="button" ><i class="icon-calendar">i</i></button>
            </div>
+</code>
 
    <b>Js :</b>
+
+
+
            app.directive('dateP', function() {
              return {
                restrict: 'A',
