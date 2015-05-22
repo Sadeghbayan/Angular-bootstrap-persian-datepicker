@@ -5,19 +5,6 @@ Demo : http://plnkr.co/edit/2nhFx3yPGnlCrDn8eyna?p=preview
 
 <h3><b>Usage :</b></h3>
 
-<b>Html :</b>
-
-<code>
-   <div class="input-append">
-               <input date-p
-               id="datepicker1"
-               class="input-small"
-               type="text"
-               ng-model="$parent.dt"
-               >
-               <button  class="btn" type="button" ><i class="icon-calendar">i</i></button>
-           </div>
-</code>
 
    <b>Js :</b>
 
@@ -46,7 +33,14 @@ Demo : http://plnkr.co/edit/2nhFx3yPGnlCrDn8eyna?p=preview
            $scope.dt1;
 
 
+<b>
+Tip :
+</b>
 
-نکته :  date-p اسم دایر کتیو می باشد
+Tip :
+<p style="text-align: right">
 
+    نکته :  date-p اسم دایر کتیو می باشد
+
+</p>
 
