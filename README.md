@@ -43,3 +43,21 @@ Tip :
 
 </p>
 
+
+<b>
+Feature:
+</b>
+<p dir="rtl">
+
+<li>
+سازگاری کامل با Ui-mask
+
+</li>
+
+
+<li>
+تبدیل تاریخ بعداز نوشتن در تکست باکس
+</li>
+</p>
+
+Created by Soheil AziziNejad and <a href="http://webpen.ir">Me</a> :)
