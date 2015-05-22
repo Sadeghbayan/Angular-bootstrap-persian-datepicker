@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html ng-app="app" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Angular Js - jQuery UI Datepicker with Twitter Bootstrap Theme</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="bootstrap-datepicker.css" />
+    <style>body{margin:3em}</style>
+</head>
+<body>
+
+
+<div  class="container" ng-controller="mainCtrl">
+
+    <div class="input-append">
+        <input date-p
+               id="datepicker1"
+               class="input-small"
+               type="text"
+               ui-mask="99/99/9999"
+               ng-model="$parent.dt"
+                >
+        <button  class="btn btn-primary" type="button" ><i class="icon-calendar">i</i></button>
+    </div>
+    <div class="input-append">
+        <input date-p
+               id="datepickerSecond"
+               class="input-small"
+               type="text"
+               ui-mask="99/99/9999"
+               ng-model="$parent.dt1"
+                >
+        <button  class="btn" type="button" ><i class="icon-calendar">i</i></button>
+    </div>
+
+
+</div>
+
+
+<script src="jquery.min.js"></script>
+<script src="bootstrap-datepicker.js"></script>
+<script src="bootstrap-datepicker.fa.js"></script>
+<script src="angular.js"></script>
+<script src="ui-bootstrap-tpls-0.11.0.js"></script>
+
+<script src="angular-ui-utils.min.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
